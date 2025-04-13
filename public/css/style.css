@@ -1,0 +1,100 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Sanchez:ital@0;1&display=swap');
+
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Header Styling */
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #6c5ce7;
+  font-size: 3rem; /* Larger font size */
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #3a3a8e;
+}
+
+p, span, a, li, label, input {
+  font-family: "Sanchez", serif;
+}
+
+/* Card Styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Primary Button Styling */
+.btn-primary {
+  background-color: #6c5ce7;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #5a4bcf;
+}
+
+/* Available Event Cards Section */
+.available-event-card {
+  width: 100%;
+  max-width: 250px; /* Smaller card width */
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.available-event-card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.available-event-card .card-img-top {
+  width: 100%;
+  height: 150px; /* Smaller image height */
+  object-fit: cover;
+  object-position: center;
+}
+
+.available-event-card .card-body {
+  padding: 10px;
+}
+
+.available-event-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.available-event-card .card-text {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.available-event-card .btn {
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
